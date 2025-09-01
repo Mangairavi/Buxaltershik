@@ -8,19 +8,11 @@ app_license = "mit"
 # Apps
 # ------------------
 
-# fixtures = [
-#     "Custom Field",
-#     "Property Setter",
-#     "Print Format",
-#     "Report",
-#     "Workflow"
-# ]
 fixtures = [
-    {
-        "dt": "Custom Field",
-        "filters": [["module", "=", "Buxaltershik"]]
-    },
+    "Custom Field",
+    "Property Setter"
 ]
+
 
 # required_apps = []
 
