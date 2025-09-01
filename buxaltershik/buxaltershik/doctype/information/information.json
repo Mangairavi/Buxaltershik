@@ -1,0 +1,203 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2025-08-28 10:14:01.654579",
+ "custom": 1,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "product_code",
+  "brand_name",
+  "brand_code",
+  "oe_code",
+  "description",
+  "column_break_yjl3",
+  "net_weightkg",
+  "gross_weightkg",
+  "qty",
+  "unit_type",
+  "column_break_gaor",
+  "box_name",
+  "product_sizecm",
+  "a",
+  "b",
+  "c",
+  "volumem3",
+  "label",
+  "qr_code",
+  "printfor_label",
+  "properties",
+  "column_break_i2ar",
+  "technical_image",
+  "image",
+  "additional_note",
+  "operation"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "INFORM-.#####"
+  },
+  {
+   "fieldname": "product_code",
+   "fieldtype": "Data",
+   "label": "Product Code"
+  },
+  {
+   "fieldname": "brand_name",
+   "fieldtype": "Data",
+   "label": "Brand Name"
+  },
+  {
+   "fieldname": "brand_code",
+   "fieldtype": "Data",
+   "label": "Brand Code"
+  },
+  {
+   "fieldname": "oe_code",
+   "fieldtype": "Data",
+   "label": "OE Code"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "column_break_yjl3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "net_weightkg",
+   "fieldtype": "Float",
+   "label": "Net Weight(Kg)"
+  },
+  {
+   "fieldname": "gross_weightkg",
+   "fieldtype": "Float",
+   "label": "Gross Weight(Kg)"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Data",
+   "label": "QTY"
+  },
+  {
+   "fieldname": "unit_type",
+   "fieldtype": "Data",
+   "label": "Unit Type"
+  },
+  {
+   "fieldname": "column_break_gaor",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "box_name",
+   "fieldtype": "Select",
+   "label": "Box Name",
+   "options": "L4\nL4\nP2\nFC1\nFC2\nP2"
+  },
+  {
+   "fieldname": "product_sizecm",
+   "fieldtype": "Section Break",
+   "label": "Product Size(Cm)"
+  },
+  {
+   "fieldname": "a",
+   "fieldtype": "Float",
+   "label": "A"
+  },
+  {
+   "fieldname": "b",
+   "fieldtype": "Float",
+   "label": "B"
+  },
+  {
+   "fieldname": "c",
+   "fieldtype": "Float",
+   "label": "C"
+  },
+  {
+   "fieldname": "volumem3",
+   "fieldtype": "Data",
+   "label": "Volume(m3)"
+  },
+  {
+   "fieldname": "label",
+   "fieldtype": "Select",
+   "label": "Label",
+   "options": "K1 ( 60x60 )\nK1 ( 60x60 )\nK1 ( 60x60 )\nF2 ( 50x25 )\nK5 ( 40x35 )\nK1 ( 60x60 )"
+  },
+  {
+   "fieldname": "qr_code",
+   "fieldtype": "Attach Image",
+   "label": "QR Code"
+  },
+  {
+   "fieldname": "printfor_label",
+   "fieldtype": "Data",
+   "label": "Print(For Label)"
+  },
+  {
+   "fieldname": "properties",
+   "fieldtype": "Text",
+   "label": "Properties"
+  },
+  {
+   "fieldname": "column_break_i2ar",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "technical_image",
+   "fieldtype": "Attach Image",
+   "label": "Technical Image"
+  },
+  {
+   "default": "0",
+   "fieldname": "image",
+   "fieldtype": "Check",
+   "label": "Image"
+  },
+  {
+   "fieldname": "additional_note",
+   "fieldtype": "Small Text",
+   "label": "Additional Note"
+  },
+  {
+   "fieldname": "operation",
+   "fieldtype": "Data",
+   "label": "Operation"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-31 20:02:11.022956",
+ "modified_by": "mangai23ravi@gmail.com",
+ "module": "Buxaltershik",
+ "name": "Information",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

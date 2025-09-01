@@ -1,0 +1,137 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:supplier",
+ "creation": "2025-08-27 21:22:33.193464",
+ "custom": 1,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "supplier",
+  "supplier_code",
+  "brand",
+  "brand_code",
+  "oe_code",
+  "description",
+  "qty",
+  "unit_type",
+  "minimum_qty",
+  "purchase_price",
+  "extra_cost",
+  "cost_basis",
+  "selling_price",
+  "additional_note",
+  "operation"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "PROD-.#####"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Data",
+   "label": "Supplier"
+  },
+  {
+   "fieldname": "supplier_code",
+   "fieldtype": "Data",
+   "label": "Supplier Code"
+  },
+  {
+   "fieldname": "brand",
+   "fieldtype": "Data",
+   "label": "Brand"
+  },
+  {
+   "fieldname": "brand_code",
+   "fieldtype": "Data",
+   "label": "Brand Code"
+  },
+  {
+   "fieldname": "oe_code",
+   "fieldtype": "Data",
+   "label": "OE Code"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Data",
+   "label": "QTY"
+  },
+  {
+   "fieldname": "unit_type",
+   "fieldtype": "Data",
+   "label": "Unit Type"
+  },
+  {
+   "fieldname": "minimum_qty",
+   "fieldtype": "Int",
+   "label": "Minimum QTY"
+  },
+  {
+   "fieldname": "purchase_price",
+   "fieldtype": "Data",
+   "label": "Purchase Price"
+  },
+  {
+   "fieldname": "extra_cost",
+   "fieldtype": "Float",
+   "label": "Extra Cost"
+  },
+  {
+   "fieldname": "cost_basis",
+   "fieldtype": "Float",
+   "label": "Cost Basis"
+  },
+  {
+   "fieldname": "selling_price",
+   "fieldtype": "Data",
+   "label": "Selling Price"
+  },
+  {
+   "fieldname": "additional_note",
+   "fieldtype": "Small Text",
+   "label": "Additional Note"
+  },
+  {
+   "fieldname": "operation",
+   "fieldtype": "Data",
+   "label": "Operation"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-31 20:02:21.515586",
+ "modified_by": "mangai23ravi@gmail.com",
+ "module": "Buxaltershik",
+ "name": "Products",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

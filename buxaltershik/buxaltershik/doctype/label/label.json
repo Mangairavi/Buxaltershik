@@ -1,0 +1,128 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2025-08-28 11:33:30.339872",
+ "custom": 1,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "brand",
+  "label_name",
+  "column_break_xgez",
+  "price",
+  "stock_qty",
+  "order_qty",
+  "label_size_section",
+  "a",
+  "b",
+  "column_break_y1wd",
+  "image",
+  "design_file",
+  "additional_note",
+  "operation"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "LABEL-.#####"
+  },
+  {
+   "fieldname": "brand",
+   "fieldtype": "Data",
+   "label": "Brand"
+  },
+  {
+   "fieldname": "label_name",
+   "fieldtype": "Data",
+   "label": "Label Name"
+  },
+  {
+   "fieldname": "column_break_xgez",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Float",
+   "label": "Price"
+  },
+  {
+   "fieldname": "stock_qty",
+   "fieldtype": "Int",
+   "label": "Stock QTY"
+  },
+  {
+   "fieldname": "order_qty",
+   "fieldtype": "Int",
+   "label": "Order QTY"
+  },
+  {
+   "fieldname": "label_size_section",
+   "fieldtype": "Section Break",
+   "label": "Label Size"
+  },
+  {
+   "fieldname": "a",
+   "fieldtype": "Int",
+   "label": "A"
+  },
+  {
+   "fieldname": "b",
+   "fieldtype": "Int",
+   "label": "B"
+  },
+  {
+   "fieldname": "column_break_y1wd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "design_file",
+   "fieldtype": "Attach",
+   "label": "Design File"
+  },
+  {
+   "fieldname": "additional_note",
+   "fieldtype": "Small Text",
+   "label": "Additional Note"
+  },
+  {
+   "fieldname": "operation",
+   "fieldtype": "Data",
+   "label": "Operation"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-31 20:01:47.086759",
+ "modified_by": "mangai23ravi@gmail.com",
+ "module": "Buxaltershik",
+ "name": "Label",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

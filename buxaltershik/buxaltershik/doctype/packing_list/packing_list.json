@@ -1,0 +1,163 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2025-08-29 13:18:49.601654",
+ "custom": 1,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "box_number",
+  "brand",
+  "brand_code",
+  "oe_code",
+  "column_break_hdlu",
+  "description",
+  "qty",
+  "net_weightkg",
+  "total_weightkg",
+  "section_break_yu1k",
+  "column_break_ofr8",
+  "acm",
+  "bcm",
+  "ccm",
+  "number_of_boxes",
+  "total_volumem3",
+  "column_break_2zxa",
+  "additional_note",
+  "picture",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "PACKINGLIST-.#####"
+  },
+  {
+   "fieldname": "box_number",
+   "fieldtype": "Int",
+   "label": "Box Number"
+  },
+  {
+   "fieldname": "brand",
+   "fieldtype": "Data",
+   "label": "Brand"
+  },
+  {
+   "fieldname": "brand_code",
+   "fieldtype": "Data",
+   "label": "Brand Code"
+  },
+  {
+   "fieldname": "oe_code",
+   "fieldtype": "Data",
+   "label": "OE Code"
+  },
+  {
+   "fieldname": "column_break_hdlu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Int",
+   "label": "QTY"
+  },
+  {
+   "fieldname": "net_weightkg",
+   "fieldtype": "Float",
+   "label": "Net Weight(kg)"
+  },
+  {
+   "fieldname": "total_weightkg",
+   "fieldtype": "Float",
+   "label": "Total Weight(kg)"
+  },
+  {
+   "fieldname": "section_break_yu1k",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ofr8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "acm",
+   "fieldtype": "Int",
+   "label": "A(cm)"
+  },
+  {
+   "fieldname": "bcm",
+   "fieldtype": "Int",
+   "label": "B(cm)"
+  },
+  {
+   "fieldname": "ccm",
+   "fieldtype": "Int",
+   "label": "C(cm)"
+  },
+  {
+   "fieldname": "number_of_boxes",
+   "fieldtype": "Int",
+   "label": "Number Of Boxes"
+  },
+  {
+   "fieldname": "total_volumem3",
+   "fieldtype": "Float",
+   "label": "Total Volume(m3)"
+  },
+  {
+   "fieldname": "column_break_2zxa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "additional_note",
+   "fieldtype": "Small Text",
+   "label": "Additional Note"
+  },
+  {
+   "fieldname": "picture",
+   "fieldtype": "Attach Image",
+   "label": "Picture"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-31 20:00:00.558884",
+ "modified_by": "mangai23ravi@gmail.com",
+ "module": "Buxaltershik",
+ "name": "Packing List",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

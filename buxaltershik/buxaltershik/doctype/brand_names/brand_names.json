@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2025-08-28 13:34:23.951452",
+ "custom": 1,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "brand_names",
+  "naming_series",
+  "number_of_products_list",
+  "operation"
+ ],
+ "fields": [
+  {
+   "fieldname": "brand_names",
+   "fieldtype": "Data",
+   "label": "Brand Names"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "BRDNAME-.#####"
+  },
+  {
+   "fieldname": "number_of_products_list",
+   "fieldtype": "Int",
+   "label": "Number Of Products List"
+  },
+  {
+   "fieldname": "operation",
+   "fieldtype": "Data",
+   "label": "Operation"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-31 20:01:38.175808",
+ "modified_by": "mangai23ravi@gmail.com",
+ "module": "Buxaltershik",
+ "name": "Brand Names",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

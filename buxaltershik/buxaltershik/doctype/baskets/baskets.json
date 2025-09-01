@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2025-08-29 12:30:20.728380",
+ "custom": 1,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "customer",
+  "product_name_qty",
+  "qty",
+  "total_weightkg",
+  "total_volumem3",
+  "column_break_thpd",
+  "amount",
+  "last_edit_date",
+  "first_edit_date",
+  "additional_note"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "BASKET-.#####"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Data",
+   "label": "Customer"
+  },
+  {
+   "fieldname": "product_name_qty",
+   "fieldtype": "Int",
+   "label": "Product Name QTY"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Int",
+   "label": "QTY"
+  },
+  {
+   "fieldname": "total_weightkg",
+   "fieldtype": "Float",
+   "label": "Total Weight(kg)"
+  },
+  {
+   "fieldname": "total_volumem3",
+   "fieldtype": "Float",
+   "label": "Total Volume(m3)"
+  },
+  {
+   "fieldname": "column_break_thpd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Int",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "last_edit_date",
+   "fieldtype": "Date",
+   "label": "Last Edit Date"
+  },
+  {
+   "fieldname": "first_edit_date",
+   "fieldtype": "Date",
+   "label": "First Edit Date "
+  },
+  {
+   "fieldname": "additional_note",
+   "fieldtype": "Small Text",
+   "label": "Additional Note"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-31 20:00:12.699504",
+ "modified_by": "mangai23ravi@gmail.com",
+ "module": "Buxaltershik",
+ "name": "Baskets",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
