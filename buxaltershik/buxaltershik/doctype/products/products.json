@@ -21,8 +21,7 @@
   "extra_cost",
   "cost_basis",
   "selling_price",
-  "additional_note",
-  "operation"
+  "additional_note"
  ],
  "fields": [
   {
@@ -34,84 +33,79 @@
   {
    "fieldname": "supplier",
    "fieldtype": "Data",
-   "label": "Supplier"
+   "label": "T\u0259chizat\u00e7\u0131(Supplier)"
   },
   {
    "fieldname": "supplier_code",
    "fieldtype": "Data",
-   "label": "Supplier Code"
+   "label": "T\u0259chizat\u00e7\u0131 Kodu(Supplier Code)"
   },
   {
    "fieldname": "brand",
    "fieldtype": "Data",
-   "label": "Brand"
+   "label": "Brend(Brand)"
   },
   {
    "fieldname": "brand_code",
    "fieldtype": "Data",
-   "label": "Brand Code"
+   "label": "Brend kodu(Brand Code)"
   },
   {
    "fieldname": "oe_code",
    "fieldtype": "Data",
-   "label": "OE Code"
+   "label": "Oem kodu(OE Code)"
   },
   {
    "fieldname": "description",
    "fieldtype": "Small Text",
-   "label": "Description"
+   "label": "M\u0259hsulun ad\u0131(Description)"
   },
   {
    "fieldname": "qty",
    "fieldtype": "Data",
-   "label": "QTY"
+   "label": "Say(QTY)"
   },
   {
    "fieldname": "unit_type",
    "fieldtype": "Data",
-   "label": "Unit Type"
+   "label": "Vahid n\u00f6v\u00fc(Unit Type)"
   },
   {
    "fieldname": "minimum_qty",
    "fieldtype": "Int",
-   "label": "Minimum QTY"
+   "label": "Min. Say(Minimum QTY)"
   },
   {
    "fieldname": "purchase_price",
    "fieldtype": "Data",
-   "label": "Purchase Price"
+   "label": "Al\u0131\u015f Qiym\u0259ti(Purchase Price)"
   },
   {
    "fieldname": "extra_cost",
    "fieldtype": "Float",
-   "label": "Extra Cost"
+   "label": "\u018flav\u0259 x\u0259rc(Extra Cost)"
   },
   {
    "fieldname": "cost_basis",
    "fieldtype": "Float",
-   "label": "Cost Basis"
+   "label": " (Cost Basis)(Cost Basis)"
   },
   {
    "fieldname": "selling_price",
    "fieldtype": "Data",
-   "label": "Selling Price"
+   "label": "Sat\u0131\u015f Qiym\u0259ti(Selling Price)"
   },
   {
    "fieldname": "additional_note",
    "fieldtype": "Small Text",
-   "label": "Additional Note"
-  },
-  {
-   "fieldname": "operation",
-   "fieldtype": "Data",
-   "label": "Operation"
+   "label": "\u018flav\u0259 qeyd(Additional Note)"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-31 20:02:21.515586",
- "modified_by": "mangai23ravi@gmail.com",
+ "modified": "2025-09-04 15:37:15.277282",
+ "modified_by": "Administrator",
  "module": "Buxaltershik",
  "name": "Products",
  "naming_rule": "By \"Naming Series\" field",

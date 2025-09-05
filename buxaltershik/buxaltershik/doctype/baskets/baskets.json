@@ -29,27 +29,27 @@
   {
    "fieldname": "customer",
    "fieldtype": "Data",
-   "label": "Customer"
+   "label": "M\u00fc\u015ft\u0259ri (Customer)"
   },
   {
    "fieldname": "product_name_qty",
    "fieldtype": "Int",
-   "label": "Product Name QTY"
+   "label": "M\u0259hsulun  ad say\u0131(Product Name QTY)"
   },
   {
    "fieldname": "qty",
    "fieldtype": "Int",
-   "label": "QTY"
+   "label": "Say(QTY)"
   },
   {
    "fieldname": "total_weightkg",
    "fieldtype": "Float",
-   "label": "Total Weight(kg)"
+   "label": "C\u0259mi \u00e7\u0259ki (kq)(Total Weight(kg))"
   },
   {
    "fieldname": "total_volumem3",
    "fieldtype": "Float",
-   "label": "Total Volume(m3)"
+   "label": "C\u0259mi H\u0259cm m3(Total Volume(m3))"
   },
   {
    "fieldname": "column_break_thpd",
@@ -58,29 +58,29 @@
   {
    "fieldname": "amount",
    "fieldtype": "Int",
-   "label": "Amount"
+   "label": "M\u0259bl\u0259\u011f(Amount)"
   },
   {
    "fieldname": "last_edit_date",
    "fieldtype": "Date",
-   "label": "Last Edit Date"
+   "label": "Son d\u00fcz\u0259li\u015f tarixi(Last Edit Date)"
   },
   {
    "fieldname": "first_edit_date",
    "fieldtype": "Date",
-   "label": "First Edit Date "
+   "label": "\u0130lk d\u00fcz\u0259li\u015f tarixi(First Edit Date )"
   },
   {
    "fieldname": "additional_note",
    "fieldtype": "Small Text",
-   "label": "Additional Note"
+   "label": "\u018flav\u0259 qeyd(Additional Note)"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-31 20:00:12.699504",
- "modified_by": "mangai23ravi@gmail.com",
+ "modified": "2025-09-04 15:02:14.543448",
+ "modified_by": "Administrator",
  "module": "Buxaltershik",
  "name": "Baskets",
  "naming_rule": "By \"Naming Series\" field",

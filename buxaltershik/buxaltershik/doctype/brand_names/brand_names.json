@@ -9,14 +9,13 @@
  "field_order": [
   "brand_names",
   "naming_series",
-  "number_of_products_list",
-  "operation"
+  "number_of_products_list"
  ],
  "fields": [
   {
    "fieldname": "brand_names",
    "fieldtype": "Data",
-   "label": "Brand Names"
+   "label": "Brend adlar\u0131(Brand Names)"
   },
   {
    "fieldname": "naming_series",
@@ -27,19 +26,14 @@
   {
    "fieldname": "number_of_products_list",
    "fieldtype": "Int",
-   "label": "Number Of Products List"
-  },
-  {
-   "fieldname": "operation",
-   "fieldtype": "Data",
-   "label": "Operation"
+   "label": "M\u0259hsullar siyah\u0131s\u0131nda olan m\u0259hsullar\u0131n\u0131n say\u0131(Number Of Products List)"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-31 20:01:38.175808",
- "modified_by": "mangai23ravi@gmail.com",
+ "modified": "2025-09-04 18:36:41.807591",
+ "modified_by": "Administrator",
  "module": "Buxaltershik",
  "name": "Brand Names",
  "naming_rule": "By \"Naming Series\" field",

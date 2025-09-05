@@ -36,22 +36,22 @@
   {
    "fieldname": "id",
    "fieldtype": "Data",
-   "label": "ID"
+   "label": "ID(Automaticly)"
   },
   {
    "fieldname": "name_and_surname",
    "fieldtype": "Data",
-   "label": "Name And Surname"
+   "label": "Ad\u0131 v\u0259 Soyad\u0131*(Name And Surname)"
   },
   {
    "fieldname": "birth_date",
    "fieldtype": "Date",
-   "label": "Birth Date"
+   "label": "Do\u011fum tarixi(Birth Date)"
   },
   {
    "fieldname": "position",
    "fieldtype": "Data",
-   "label": "Position"
+   "label": "V\u0259zif\u0259si(Position)"
   },
   {
    "fieldname": "column_break_4kzh",
@@ -60,17 +60,17 @@
   {
    "fieldname": "user_for_website",
    "fieldtype": "Data",
-   "label": "User For Website"
+   "label": "\u0130stifad\u0259\u00e7i(User For Website)"
   },
   {
    "fieldname": "password",
    "fieldtype": "Password",
-   "label": "Password"
+   "label": "\u015eifr\u0259(Password)"
   },
   {
    "fieldname": "permitted_access_sections",
    "fieldtype": "Data",
-   "label": "Permitted Access Sections"
+   "label": "\u0130caz\u0259 veril\u0259n giri\u015f b\u00f6lm\u0259l\u0259ri(Permitted Access )Sections"
   },
   {
    "fieldname": "email",
@@ -81,7 +81,7 @@
   {
    "fieldname": "phone_number",
    "fieldtype": "Phone",
-   "label": "Phone Number"
+   "label": "Tel. n\u00f6mr\u0259si(Phone Number)"
   },
   {
    "fieldname": "section_break_2z3t",
@@ -100,29 +100,29 @@
   {
    "fieldname": "image",
    "fieldtype": "Data",
-   "label": "Image"
+   "label": "\u015e\u0259kil(Image)"
   },
   {
    "fieldname": "salary_date",
    "fieldtype": "Date",
-   "label": "Salary Date"
+   "label": "Maa\u015f tarixi(Salary Date)"
   },
   {
    "fieldname": "salary",
    "fieldtype": "Int",
-   "label": "Salary"
+   "label": "Maa\u015f(Salary)"
   },
   {
    "fieldname": "addition_note",
    "fieldtype": "Small Text",
-   "label": "Addition Note"
+   "label": "\u018flav\u0259 qeyd(Addition Note)"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-31 20:00:24.447734",
- "modified_by": "mangai23ravi@gmail.com",
+ "modified": "2025-09-04 19:18:57.519473",
+ "modified_by": "Administrator",
  "module": "Buxaltershik",
  "name": "Workers",
  "naming_rule": "By \"Naming Series\" field",

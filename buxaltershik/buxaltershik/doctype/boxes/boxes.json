@@ -23,8 +23,7 @@
   "column_break_wnur",
   "image",
   "design_file",
-  "additional_note",
-  "operation"
+  "additional_note"
  ],
  "fields": [
   {
@@ -41,12 +40,12 @@
   {
    "fieldname": "box_name",
    "fieldtype": "Data",
-   "label": "Box Name"
+   "label": "Qutunun Ad\u0131(Box Name)"
   },
   {
    "fieldname": "material",
    "fieldtype": "Data",
-   "label": "Material"
+   "label": "N\u00f6v\u00fc(Material)"
   },
   {
    "fieldname": "column_break_1kyu",
@@ -55,17 +54,17 @@
   {
    "fieldname": "stock_qty",
    "fieldtype": "Int",
-   "label": "Stock QTY"
+   "label": "Anbar say\u0131(Stock QTY)"
   },
   {
    "fieldname": "order_qty",
    "fieldtype": "Int",
-   "label": "Order QTY"
+   "label": "Sifari\u015f say\u0131(Order QTY)"
   },
   {
    "fieldname": "price",
    "fieldtype": "Float",
-   "label": "Price"
+   "label": "Qiym\u0259ti(Price)"
   },
   {
    "fieldname": "column_break_tzho",
@@ -74,7 +73,7 @@
   {
    "fieldname": "box_sizessm_section",
    "fieldtype": "Section Break",
-   "label": "Box Sizes(sm)"
+   "label": "Qutunun \u00f6l\u00e7\u00fcs\u00fc (sm)(Box Sizes(sm))"
   },
   {
    "fieldname": "a",
@@ -98,29 +97,24 @@
   {
    "fieldname": "image",
    "fieldtype": "Attach Image",
-   "label": "Image"
+   "label": "\u015e\u0259kli(Image)"
   },
   {
    "fieldname": "design_file",
    "fieldtype": "Attach",
-   "label": "Design File"
+   "label": "Dizayn fayl\u0131(Design File)"
   },
   {
    "fieldname": "additional_note",
    "fieldtype": "Small Text",
-   "label": "Additional Note"
-  },
-  {
-   "fieldname": "operation",
-   "fieldtype": "Data",
-   "label": "Operation"
+   "label": "\u018flav\u0259 qeyd(Additional Note)"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-31 20:02:02.075248",
- "modified_by": "mangai23ravi@gmail.com",
+ "modified": "2025-09-04 18:32:14.060658",
+ "modified_by": "Administrator",
  "module": "Buxaltershik",
  "name": "Boxes",
  "naming_rule": "By \"Naming Series\" field",

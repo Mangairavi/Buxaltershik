@@ -22,24 +22,24 @@
   {
    "fieldname": "date",
    "fieldtype": "Date",
-   "label": "Date"
+   "label": "Tarix(Date)"
   },
   {
    "fieldname": "currency",
    "fieldtype": "Data",
-   "label": "Currency"
+   "label": "Valyuta(Currency)"
   },
   {
    "fieldname": "price",
    "fieldtype": "Data",
-   "label": "Price"
+   "label": "Qiym\u0259ti(Price)"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-31 20:00:42.300584",
- "modified_by": "mangai23ravi@gmail.com",
+ "modified": "2025-09-04 18:45:26.085149",
+ "modified_by": "Administrator",
  "module": "Buxaltershik",
  "name": "Exchange Rate",
  "naming_rule": "By \"Naming Series\" field",

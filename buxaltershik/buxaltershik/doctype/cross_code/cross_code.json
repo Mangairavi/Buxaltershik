@@ -12,8 +12,7 @@
   "code",
   "search_brand",
   "search_code",
-  "show",
-  "operation"
+  "show"
  ],
  "fields": [
   {
@@ -45,20 +44,15 @@
   {
    "fieldname": "show",
    "fieldtype": "Select",
-   "label": "Show",
+   "label": "G\u00f6st\u0259r(Show)",
    "options": "Yes\nNo"
-  },
-  {
-   "fieldname": "operation",
-   "fieldtype": "Data",
-   "label": "Operation"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-31 20:00:58.715499",
- "modified_by": "mangai23ravi@gmail.com",
+ "modified": "2025-09-04 15:46:15.749157",
+ "modified_by": "Administrator",
  "module": "Buxaltershik",
  "name": "Cross Code",
  "naming_rule": "By \"Naming Series\" field",

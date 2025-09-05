@@ -10,8 +10,7 @@
   "naming_series",
   "brand",
   "code",
-  "full_name_of_cars",
-  "operartion"
+  "full_name_of_cars"
  ],
  "fields": [
   {
@@ -34,18 +33,13 @@
    "fieldname": "full_name_of_cars",
    "fieldtype": "Data",
    "label": "Full Name of Cars"
-  },
-  {
-   "fieldname": "operartion",
-   "fieldtype": "Data",
-   "label": "Operartion"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-31 20:01:29.355378",
- "modified_by": "mangai23ravi@gmail.com",
+ "modified": "2025-09-04 15:45:21.247852",
+ "modified_by": "Administrator",
  "module": "Buxaltershik",
  "name": "Cross Cars",
  "naming_rule": "By \"Naming Series\" field",

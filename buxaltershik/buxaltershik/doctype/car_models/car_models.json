@@ -22,24 +22,24 @@
   {
    "fieldname": "car_models",
    "fieldtype": "Data",
-   "label": "Car Models"
+   "label": "Avtomobil Modell\u0259ri(Car Models)"
   },
   {
    "fieldname": "additional_note",
    "fieldtype": "Small Text",
-   "label": "Additional Note"
+   "label": "\u018flav\u0259 qeyd(Additional Note)"
   },
   {
    "fieldname": "product_qty",
    "fieldtype": "Int",
-   "label": "Product QTY"
+   "label": "M\u0259hsul say\u0131(Product QTY)"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-31 20:00:50.296421",
- "modified_by": "mangai23ravi@gmail.com",
+ "modified": "2025-09-04 18:44:08.690158",
+ "modified_by": "Administrator",
  "module": "Buxaltershik",
  "name": "Car Models",
  "naming_rule": "By \"Naming Series\" field",

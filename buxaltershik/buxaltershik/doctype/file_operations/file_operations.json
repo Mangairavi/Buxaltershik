@@ -22,24 +22,24 @@
   {
    "fieldname": "date",
    "fieldtype": "Date",
-   "label": "Date"
+   "label": "Tarix(Date)"
   },
   {
    "fieldname": "section",
    "fieldtype": "Data",
-   "label": "Section"
+   "label": "B\u00f6lm\u0259(Section)"
   },
   {
    "fieldname": "file_name",
    "fieldtype": "Attach",
-   "label": "File Name"
+   "label": "Fayl\u0131n ad\u0131(File Name)"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-31 20:00:33.989336",
- "modified_by": "mangai23ravi@gmail.com",
+ "modified": "2025-09-04 18:47:43.774446",
+ "modified_by": "Administrator",
  "module": "Buxaltershik",
  "name": "File Operations",
  "naming_rule": "By \"Naming Series\" field",

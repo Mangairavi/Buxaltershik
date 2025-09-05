@@ -32,8 +32,7 @@
   "column_break_i2ar",
   "technical_image",
   "image",
-  "additional_note",
-  "operation"
+  "additional_note"
  ],
  "fields": [
   {
@@ -45,27 +44,27 @@
   {
    "fieldname": "product_code",
    "fieldtype": "Data",
-   "label": "Product Code"
+   "label": "M\u0259hsulun kodu(Product Code)"
   },
   {
    "fieldname": "brand_name",
    "fieldtype": "Data",
-   "label": "Brand Name"
+   "label": "Brend ad\u0131(Brand Name)"
   },
   {
    "fieldname": "brand_code",
    "fieldtype": "Data",
-   "label": "Brand Code"
+   "label": "Brend kodu(Brand Code)"
   },
   {
    "fieldname": "oe_code",
    "fieldtype": "Data",
-   "label": "OE Code"
+   "label": "Oem kodu(OE Code)"
   },
   {
    "fieldname": "description",
    "fieldtype": "Small Text",
-   "label": "Description"
+   "label": "M\u0259hsulun ad\u0131(Description)"
   },
   {
    "fieldname": "column_break_yjl3",
@@ -74,22 +73,22 @@
   {
    "fieldname": "net_weightkg",
    "fieldtype": "Float",
-   "label": "Net Weight(Kg)"
+   "label": "Xalis \u00e7\u0259ki (Kq)(Net Weight(Kg))"
   },
   {
    "fieldname": "gross_weightkg",
    "fieldtype": "Float",
-   "label": "Gross Weight(Kg)"
+   "label": "\u00dcmumi \u00e7\u0259ki (kq)(Gross Weight(Kg))"
   },
   {
    "fieldname": "qty",
    "fieldtype": "Data",
-   "label": "QTY"
+   "label": "Say(QTY)"
   },
   {
    "fieldname": "unit_type",
    "fieldtype": "Data",
-   "label": "Unit Type"
+   "label": "Vahid n\u00f6v\u00fc(Unit Type)"
   },
   {
    "fieldname": "column_break_gaor",
@@ -98,13 +97,13 @@
   {
    "fieldname": "box_name",
    "fieldtype": "Select",
-   "label": "Box Name",
+   "label": "Qutunun Ad\u0131(Box Name)",
    "options": "L4\nL4\nP2\nFC1\nFC2\nP2"
   },
   {
    "fieldname": "product_sizecm",
    "fieldtype": "Section Break",
-   "label": "Product Size(Cm)"
+   "label": "M\u0259hsulun \u00f6l\u00e7\u00fcs\u00fc (sm)(Product Size(Cm))"
   },
   {
    "fieldname": "a",
@@ -124,12 +123,12 @@
   {
    "fieldname": "volumem3",
    "fieldtype": "Data",
-   "label": "Volume(m3)"
+   "label": "H\u0259cmi(Volume(m3))"
   },
   {
    "fieldname": "label",
    "fieldtype": "Select",
-   "label": "Label",
+   "label": "Etiketi(Label)",
    "options": "K1 ( 60x60 )\nK1 ( 60x60 )\nK1 ( 60x60 )\nF2 ( 50x25 )\nK5 ( 40x35 )\nK1 ( 60x60 )"
   },
   {
@@ -140,7 +139,7 @@
   {
    "fieldname": "printfor_label",
    "fieldtype": "Data",
-   "label": "Print(For Label)"
+   "label": "\u00c7ap et(Print(For Label))"
   },
   {
    "fieldname": "properties",
@@ -154,30 +153,25 @@
   {
    "fieldname": "technical_image",
    "fieldtype": "Attach Image",
-   "label": "Technical Image"
+   "label": "Texniki \u015f\u0259kli(Technical Image)"
   },
   {
    "default": "0",
    "fieldname": "image",
    "fieldtype": "Check",
-   "label": "Image"
+   "label": "\u015e\u0259kli(Image)"
   },
   {
    "fieldname": "additional_note",
    "fieldtype": "Small Text",
-   "label": "Additional Note"
-  },
-  {
-   "fieldname": "operation",
-   "fieldtype": "Data",
-   "label": "Operation"
+   "label": "\u018flav\u0259 qeyd(Additional Note)"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-31 20:02:11.022956",
- "modified_by": "mangai23ravi@gmail.com",
+ "modified": "2025-09-04 18:28:27.255834",
+ "modified_by": "Administrator",
  "module": "Buxaltershik",
  "name": "Information",
  "naming_rule": "By \"Naming Series\" field",
